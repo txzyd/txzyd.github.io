@@ -30,3 +30,5 @@ $(document).ready(function() {
     // See notes below for this approach.
   });
 });
+
+$('img').on('dragstart', function(event) { event.preventDefault(); });

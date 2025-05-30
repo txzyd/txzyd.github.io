@@ -23,6 +23,12 @@ html{
   scroll-behavior: smooth;
 }
 
+/*front page */
+.front {
+  height: 100dvh;
+  overflow: hidden;
+}
+
 /* resuable styles */
 .section-heading{
   font-family: 'Space Grotesk', sans-serif;
