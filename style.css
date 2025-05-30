@@ -28,7 +28,9 @@ html{
   height: 100dvh;
   overflow: hidden;
 }
+.lion {
 
+}
 /* resuable styles */
 .section-heading{
   font-family: 'Space Grotesk', sans-serif;
@@ -149,8 +151,13 @@ nav {
   #Pricing{
     padding: 120px 0px 130px 0px !important;
   }
-}
 
+
+@media (max-width: 1080px){
+    .lion {
+  width: 100dvw; 
+}
+}
 .pricing-top-curve{
   position: absolute;
   top: 0;
