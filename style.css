@@ -155,6 +155,7 @@ nav {
 
 @media (max-width: 1080px){
     .lion {
+    position: absolute;
   width: 110dvw; 
   align-items: center;
   justify-items: center;
