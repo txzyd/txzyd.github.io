@@ -155,7 +155,10 @@ nav {
 
 @media (max-width: 1080px){
     .lion {
-  width: 100dvw; 
+  width: 110dvw; 
+  align-items: center;
+  justify-items: center;
+  margin-top: 45%;
 }
 }
 .pricing-top-curve{
