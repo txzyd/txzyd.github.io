@@ -25,7 +25,13 @@
       <header class="container-fluid py-3 px-4">
         <nav class="navbar navbar-expand-lg mb-0 mb-lg-5">
           <a href="/" class="navbar-brand">
-            <img src="assets/img/logo.gif" alt="logo" />
+            <picture> <!-- Mobile-->
+               <source media="(max-width: 600px)" src="assets\img\logo_mobile.gif"> 
+               <!-- Desktop--> 
+                <source media="(min-width: 601px)" src="assets\img\logo.gif">
+                 <!-- Fallback--> 
+                  <img aria-hidden="true" loading="lazy" decoding="async"src="assets/img/logo.gif" alt="logo" />
+             </picture>
           </a>
   
           <button class="navbar-toggler toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,14 +43,14 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="#Home">Home</a>
               </li>
-              <li class="nav-item">
+              <!--<li class="nav-item">
                 <a class="nav-link" href="#About">About</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#Contact">Contact</a>
               </li>
               
-          </div>
+          </div> -->
         </nav>
 
 

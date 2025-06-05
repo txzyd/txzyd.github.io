@@ -31,7 +31,9 @@ html{
 
 @media (min-width: 1000px){
 .lion {
-  width: 40dvw;
+  max-width: 100%
+  padding: 20%
+
 }
 }
 /* resuable styles */
@@ -57,18 +59,22 @@ nav {
   font-family: 'Space Grotesk', sans-serif;
 }
 
+.navbar {
+  display: flex; align-items: center; justify-content: space-between;
+}
+
 .navbar-brand {
   scale: 30%;
-
 }
 
 .toggler {
   color: var(--primary-color);
-  font-size: 1.8rem;
+  font-size: 1rem;
   background: none;
   border: none;
-  padding: 5px;
+  padding: 0;
   line-height: 0;
+  
 }
 
 .navigation li a {
@@ -146,6 +152,23 @@ nav {
   position: absolute;
   right: 0;
 }
+/*Iphone specific */
+@media (max-device-width: 390px)  {
+    .lion {
+      scale: 20%;
+      position: absolute;
+    }
+    .navbar {
+    display: flex; align-items: center; justify-content: space-between;
+    }
+    .navbar-nav{
+    position: absolute;
+    visibility:hidden;
+    display:none;
+    display: none !important;
+    }
+  }
+
 /* pricing style */
 #Pricing{
   width: 100%;
