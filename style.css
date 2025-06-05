@@ -32,7 +32,7 @@ html{
 @media (min-width: 1000px){
 .lion {
   width: auto;
-  height: 80dvh;
+  height: 100%;
 }
 }
 /* resuable styles */
