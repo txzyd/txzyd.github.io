@@ -15,7 +15,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow-x: show;
   background-color: #a3a3a3;
 }
 
@@ -25,8 +25,7 @@ html{
 
 /*front page */
 .front {
-  height: 100dvh;
-  overflow: hidden;
+  height: auto;
 }
 
 @media (min-width: 1000px){
