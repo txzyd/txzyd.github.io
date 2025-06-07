@@ -15,7 +15,7 @@
 }
 
 body{
-  overflow-x: show;
+  overflow-x: hidden;
   background-color: #a3a3a3;
 }
 
@@ -31,7 +31,10 @@ html{
 @media (min-width: 1000px){
 .lion {
   width: auto;
-  height: 100%;
+  height: 100dvh;
+  margin-top: 0 auto;
+  margin-bottom: 0 auto;
+  margin: auto;
 }
 }
 /* resuable styles */
