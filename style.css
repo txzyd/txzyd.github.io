@@ -15,7 +15,7 @@
 }
 
 body{
-  overflow-x: hidden;
+  overflow: hidden;
   background-color: #a3a3a3;
 }
 
@@ -30,7 +30,7 @@ html{
 
 @media (min-width: 1000px){
 .lion {
-  width: auto;
+  width: 50% auto;
   height: 100dvh;
   margin-top: 0 auto;
   margin-bottom: 0 auto;
@@ -112,6 +112,7 @@ nav {
 .nav-btn .get-start:hover{
   background-color: var(--primary-color);
 }
+
 
 /* hero style */
 .hero-bg{
