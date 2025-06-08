@@ -26,8 +26,6 @@ $(document).ready(function() {
       $img.attr('src', staticSrc).removeClass('is-playing');
     }, 500); // Adjust time to match your GIF length
 
-    // Option 2 (Advanced): Use GIF.js or a library to detect GIF end
-    // See notes below for this approach.
   });
 });
 
