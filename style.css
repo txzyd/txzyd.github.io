@@ -46,6 +46,8 @@ figure {
   margin-top: 0 auto;
   margin-bottom: 0 auto;
   margin: auto;
+  box-shadow: #a3a3a3 0px -15px 20px;
+
 }
 }
 
@@ -214,6 +216,7 @@ nav {
  top:0;bottom:0;
  left:0;right:0; 
  scale: 2;
+ box-shadow: #a3a3a3 0px -15px 20px;
 }
     .navbar {
     position: absolute;
